@@ -20,10 +20,13 @@ int main() {
     // Determine the nature of the integer
     if (userNumber > 0) {
         std::cout << userNumber << " is a positive number";
+        std::cout << "\n";
     } else if (userNumber < 0) {
         std::cout << userNumber << " is a negative number";
+        std::cout << "\n";
     } else if (userNumber == 0) {
         std::cout << userNumber << " is just 0";
+        std::cout << "\n";
     } else {
         std::cout << "no idea";
     }
